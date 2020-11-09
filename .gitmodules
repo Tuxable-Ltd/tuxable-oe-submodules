@@ -1,0 +1,29 @@
+[submodule "openembedded/oe-core.git"]
+	path = openembedded/oe-core.git
+	url = git://git.openembedded.org/openembedded-core
+	branch = master
+[submodule "openembedded/meta-oe.git"]
+	path = openembedded/meta-oe.git
+	url = git://git.openembedded.org/meta-openembedded
+	branch = master
+[submodule "openembedded/bitbake.git"]
+	path = openembedded/bitbake.git
+	url = git://git.openembedded.org/bitbake
+	branch = master
+[submodule "openembedded/meta-tuxable-distro.git"]
+	path = openembedded/meta-tuxable-distro.git
+	url = https://github.com/Tuxable-Ltd/meta-tuxable-distro.git
+	branch = master
+[submodule "openembedded/meta-devboard.git"]
+	path = openembedded/meta-devboard.git
+	url = https://github.com/Tuxable-Ltd/meta-devboard.git
+	branch = master
+[submodule "openembedded/meta-kernel.git"]
+	path = openembedded/meta-kernel.git
+	url = https://gitlab.com/openembedded/community/meta-kernel.git
+	branch = master
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/Tuxable-Ltd/oe-init-scripts.git
+	branch = master
+

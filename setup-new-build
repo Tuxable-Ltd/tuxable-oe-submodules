@@ -1,0 +1,20 @@
+#! /usr/bin/env bash
+
+BASE_PATH="--base-path $(git rev-parse --show-toplevel)/builds"
+
+ARGS=$@
+
+key="$1"
+shift
+
+case $key in
+
+        --base-path)
+                BASE_PATH=""
+		shift
+                ;;
+esac
+
+./scripts/oe-init/init-new-build $BASE_PATH $ARGS
+
+exit 0
